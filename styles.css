@@ -29,7 +29,7 @@ body {
     border-radius: 10px;
     height: 150px;
     width: 150px;
-    transition: 1s linear;
+    transition: all 1s linear;
     transform-style: preserve-3d;
     position: relative;
 }
@@ -37,6 +37,7 @@ body {
     background-color: #f9efe5;
     z-index: 2;
     color: #f37924;
+    backface-visibility: hidden;
 }
 .back {
     color: white;
